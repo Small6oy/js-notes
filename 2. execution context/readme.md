@@ -7,23 +7,23 @@ There is global execution as well as a function execution context for every func
 
 ## Execution Context Phases
 
-| Memory          | Execution       |
-|-----------------|-----------------|
-|                 |                 |
-| this is the     | this is the     |
-| variable env    | thread of       |
-| that stores     | execution.      |
-| all of your     | Each line of    |
-| variables and   | code is         |
-| functions as    | executed line   |
-| key value pairs | by line         |
-| in memory       |                 |
-|                 |                 |
-| eg              |                 |
-| name: 'Godwin'  |                 |
-| x: 100          |                 |
-| y: undefined    |                 |
-| fn: {}          |                 |
+| Memory                            | Execution                         |
+|-----------------------------------|-----------------------------------|
+|                                   |                                   |
+| this is the                       | this is the                       |
+| variable env                      | thread of                         |
+| that stores                       | execution.                        |
+| all of your                       | Each line of                      |
+| variables and                     | code is                           |
+| functions as                      | executed line                     |
+| key value pairs                   | by line                           |
+| in memory                         |                                   |
+|                                   |                                   |
+| eg                                |                                   |
+| name: 'Godwin'                    |                                   |
+| x: 100                            |                                   |
+| y: undefined                      |                                   |
+| fn: {}                            |                                   |
 
 
 ### Memory Creation Phase
