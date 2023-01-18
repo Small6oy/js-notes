@@ -44,11 +44,11 @@ There is global execution as well as a function execution context for every func
 8. var sum2 = getSum(10, 5)
 ```
 
-Line 1: x variable is allocated memory and stores "undefined"
-Line 2: y variable is allocated memory and stores "undefined"
-Line 3: function is allocated memory and stores all the code
-Line 7: sum1 variable is allocated memory and stores "undefined"
-Line 8: sum2 variable is allocated memory and stores "undefined"
+- Line 1: x variable is allocated memory and stores "undefined"
+- Line 2: y variable is allocated memory and stores "undefined"
+- Line 3: function is allocated memory and stores all the code
+- Line 7: sum1 variable is allocated memory and stores "undefined"
+- Line 8: sum2 variable is allocated memory and stores "undefined"
 
 ### Execution Phase
 
