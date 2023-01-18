@@ -68,6 +68,7 @@ There is global execution as well as a function execution context for every func
 ## Hoisting
 
 Hoisting is JavaScript's default behavior of moving declarations to the top.
+
 Variables defined with let and const are hoisted to the top of the block, but not initialized.
 Meaning: The block of code is aware of the variable, but it cannot be used until it has been declared.
 Using a let variable before it is declared will result in a *ReferenceError*.
